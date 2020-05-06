@@ -11,14 +11,13 @@ async function run() {
     const octokit = new github.GitHub(token);
 
     // The comment in a successfully merged pull request
-    var message = "Hello @" + username + ", I'm quite elated about your pull request. ";
-    message += "I wanna evolve this project to addresses various problems faced by first-time contributors. ";
-    message += "I'd love to learn about your journey in open source community, the problems, pain points you had etc. <br />";
-    message += "Could you explain how you felt when you went through the tutorial, made a pull request and learned that I merged it? <br /><br />";
-    message += "We’ve recently added social share to our web app. Could you please go to ";
-    message += "[this website](https://roshanjossey.github.io/first-contributions/#social-share) and share your ";
-    message += "first contribution to open source? ";
-    message += "Also, check out projects with easy issues while you’re there.";
+    const message = `Hello @${username}, congratulations! You've successfully submitted a pull request. 🎉
+        **Next steps**
+        - Continue contributing: If you're looking for projects to contribute to, checkout our [webapp](https://firstcontributions.github.io).
+        - Join our slack group: We have a community to help/support contributors. [Join slack group](https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM).
+        - Share on social media: You can share this content to help more people [share](https://firstcontributions.github.io/#social-share).
+
+        We'd love to hear your thoughts about this project. Let us know how we can improve my commenting or opening an issue here.`;
 
     // Create a comment on pull request
     const response = await octokit.issues.createComment({
@@ -35,7 +34,6 @@ async function run() {
       pull_number: prnumber
     });
 
-    //console.log(pullRequest);
 
   } catch (error) {
     core.setFailed(error.message);
