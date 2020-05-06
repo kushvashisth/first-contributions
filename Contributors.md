@@ -46,7 +46,8 @@ Ruslan
 - [Laimon Katalor](https://github.com/bzddd)
 - [Martin Nguyen](https://github.com/NguyenMartin/)
 - [Taehyun Lee](https://github.com/taehyun-lee)
-- [Adrian Sudbury](https://github.com/asudbury)
+- [Adrian Sudbury](https://github.com/asudbury) 
+nope
 - [Elizabeth Salazar](https://github.com/annelizs)
 - [Yeshwanth Venkatesh](https://github.com/yeshwanth93)
 - [Tony Jafar](https://github.com/tonyjafar)
