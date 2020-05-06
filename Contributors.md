@@ -7,7 +7,8 @@
 - [Arya Bhardwaj](https://github.com/ARYA-BHARDWAJ)
 - [Lautaro Lobo](https://github.com/LautaroLobo12)
 - [Nomit Pahuja](https://github.com/jaymcole/nomitpahuja)
-- [Nikil99](https://github.com/Nikil99)
+- [Nikil99](https://github.com/Nikil99).
+what
 Elizabeth
 Jeremy Sipple
 - so much water
