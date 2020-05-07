@@ -7,6 +7,8 @@ async function run() {
     const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
     const username = github.context.actor;
     const token = core.getInput("repo-token");
+    console.log(token)
+    console.log(process.env.REPO_TOKEN)
     const prnumber = core.getInput("number");
     const octokit = new github.GitHub(token);
 
