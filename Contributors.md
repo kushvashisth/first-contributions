@@ -37,6 +37,7 @@ Ruslan
 - [Shivangi Agarwal](https://github.com/AShivangi)
 - [Sangamesh S Biradar](https://github.com/sanga03/)
 - [Sarvagya Agarwal](https://github.com/sarvagya3943)
+- [Kush Vashisth] (https://github.com/kushvashisth)
 - [Sumesh Majhi](https://github.com/MajhiRockzZ)
 - [Cameron Blake](https://github.com/mcblake)
 - [Zhana Dougherty](https://github.com/ZPPD)
